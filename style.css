@@ -29,11 +29,11 @@ body {
   background-color: purple;
   width: 0px;
   height: 0px;
-  left: 50%;
-  top: 50%;
+  left: var(--xpos);
+  top: var(--ypos);
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  transition: width 0.5s, height 0.5s;
+  transition: width 0.4s, height 0.4 s;
 }
 
 .btn:hover::before {
